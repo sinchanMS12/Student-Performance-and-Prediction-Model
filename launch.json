@@ -1,0 +1,8 @@
+{
+    "name": "Python: FastAPI",
+    "type": "python",
+    "request": "launch",
+    "program": "${workspaceFolder}/student_performance.py",
+    "args": ["uvicorn", "student_performance:app", "--reload"],
+    "console": "integratedTerminal"
+}
