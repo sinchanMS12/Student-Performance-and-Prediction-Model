@@ -9,7 +9,11 @@ A FastAPI-based application that predicts a student's future marks based on past
 - Model trained on sample datasets.
 
 # To run the server
--uvicorn src.api:app --reload
+- uvicorn src.api:app --reload
+
+#  Use Swagger UI to Test
+- Open the Swagger UI at http://127.0.0.1:8000/docs.
+- Click on the POST /predict endpoint.
 
 # Example Usage
  API requests and responses.
